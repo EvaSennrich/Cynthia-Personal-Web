@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ccccff;
+  color: burlywood;
+  font-family: "Tiro Telugu", serif;
+  /* margin-left: 1rem; */
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.name {
+  margin-top: 2vh;
+  margin-left: 1rem;
+  height: 5vh;
+  font-family: "Pacifico", cursive;
+}
+
+#header {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 44vh;
+}
+
+p {
+  margin-top: 1vh;
+  font-size: large;
+}
+
+/* img {
+  position: relative;
+  top: 100px;
+  left: 400px;
+  max-width: 40%;
+  height: auto;
+} */
+
+/* #orangeContainer {
+  background-color: #ff5700;
+  margin: 0;
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+} */
+
+.links {
+  /* background-color: #fdfff3; */
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 10rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+i:hover {
+  color: #ff5700;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  /* background-color: #333; */
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ff5700;
+}
